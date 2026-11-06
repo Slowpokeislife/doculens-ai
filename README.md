@@ -95,7 +95,7 @@ flowchart TD
 ### 1. Clone and install
 
 ```powershell
-git clone https://github.com/YOUR_USERNAME/doculens-ai.git
+git clone https://github.com/Slowpokeislife/doculens-ai.git
 cd doculens-ai
 py -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt

@@ -1,0 +1,48 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.toml
+.streamlit/secrets.toml
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+~$*
+
+# Generated reports
+doculens_reporte*.pdf
+report_preview_*.pdf
+
+# Old project documentation
+ACTUALIZACION_v0.2.1.md
+ACTUALIZACION_v0.2.2.md
+VERSION_0.3.md
+SCREENSHOT_GUIDE.md
